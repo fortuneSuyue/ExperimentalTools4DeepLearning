@@ -1,0 +1,5 @@
+{
+    "seed": 256,
+    "logdir": "logs",
+    "argument": "argument/commandline_args.txt"
+}
