@@ -11,7 +11,7 @@ from seedInitializer import randomSeedInitial
 if __name__ == '__main__':
     args = Args()
     cfg = args.args
-    logx.initialize(logdir='logs/run1', coolname=True, tensorboard=True, hparams=cfg, eager_flush=True)
+    logx.initialize(logdir='runx_logs/run1', coolname=True, tensorboard=True, hparams=cfg, eager_flush=True)
     # args.loadArgs(is_print=True)
     args.saveArgs()
     randomSeedInitial(cfg['seed'])
