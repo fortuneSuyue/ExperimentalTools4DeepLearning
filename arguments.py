@@ -7,7 +7,7 @@ class Args:
     def __init__(self):
         parser = ArgumentParser(usage='hello', prog='test')
         parser.add_argument('--seed', type=int, default=256)
-        parser.add_argument('--logdir', type=str, default='logs')
+        parser.add_argument('--logdir', type=str, default='runx_logs')
         parser.add_argument('--argument', type=str, default='argument/commandline_args.txt')
         self.args = vars(parser.parse_args())
 
